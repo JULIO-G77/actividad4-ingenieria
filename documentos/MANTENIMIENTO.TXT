@@ -1,0 +1,23 @@
+Documento: Mantenimiento del software
+
+Tipo de mantenimiento: Evolutivo
+Fecha: 29/10/2025
+Responsable: Julio Andrew
+
+Descripción del cambio:
+El cliente solicitó que el sistema permitiera seleccionar el tipo de cita (presencial o virtual) antes de registrar. Se añadió un nuevo campo <select> en el formulario HTML y se actualizó el JavaScript para mostrar este dato en la confirmación de cita.
+
+Motivo del cambio:
+Facilitar la gestión de citas y diferenciar entre atenciones presenciales y virtuales en la clínica.
+
+Impacto del cambio:
+
+Se modificó el archivo index.html para incluir el nuevo campo.
+
+Se modificó el archivo script.js para procesar y mostrar el tipo de cita.
+
+Se probó el sistema verificando que muestra correctamente el tipo de cita en el resumen final.
+
+Resultado esperado:
+El formulario registra y muestra correctamente el tipo de cita seleccionado.
+No se afectan las funcionalidades anteriores.

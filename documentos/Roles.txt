@@ -1,0 +1,5 @@
+Roles Scrum - CIPA
+
+Product Owner: [NOMBRE] - Prioriza historias y habla con cliente.
+Scrum Master: [NOMBRE] - Facilita reuniones y elimina impedimentos.
+Equipo de Desarrollo: [NOMBRE1], [NOMBRE2], [NOMBRE3] - Diseñan mockup, documentación y tareas.

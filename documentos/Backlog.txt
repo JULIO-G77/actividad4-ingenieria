@@ -1,0 +1,11 @@
+Product Backlog - Clínica Salvador
+
+HU1 (Alta) - Como recepcionista, quiero registrar los datos del paciente (nombre, teléfono) para asociarlo a una cita.
+HU2 (Alta) - Como recepcionista, quiero ver una lista de médicos y sus especialidades para asignar la cita al médico correcto.
+HU3 (Media) - Como recepcionista, quiero seleccionar fecha y hora disponibles para agendar la cita.
+HU4 (Media) - Como recepcionista, quiero validar si el médico está disponible en la fecha/hora seleccionada.
+HU5 (Baja) - Como administrador, quiero editar o cancelar citas registradas.
+
+Criterios de aceptación (ejemplo HU3):
+- El formulario debe aceptar fecha y hora válidas.
+- Al enviar, debe aparecer la confirmación "Cita registrada" con los datos.

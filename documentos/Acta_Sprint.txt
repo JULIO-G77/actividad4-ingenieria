@@ -1,0 +1,7 @@
+Acta - Sprint 1
+Fecha: [poner fecha]
+Sprint Goal: Permitir que el recepcionista registre una nueva cita médica.
+Historias trabajadas: HU1, HU2, HU3
+Tareas completadas: Mockup (index.html, style.css, script.js), Documentación backlog.
+Bloqueos: Falta confirmar requisito de disponibilidad con el cliente.
+Retrospectiva: Mejorar comunicación y pruebas con usuario.

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mockup - Registrar Cita</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="card">
+    <h1>Registrar nueva cita - Clínica Salvador</h1>
+    <form id="citaForm" novalidate>
+      <label>Nombre del paciente</label>
+      <input id="nombre" required placeholder="Ej: Juan Pérez">
+
+      <label>Teléfono</label>
+      <input id="telefono" required placeholder="Ej: 3001234567">
+
+      <label>Médico</label>
+      <select id="medico">
+        <option value="dr_arias">Dr. Arias - Medicina General</option>
+        <option value="dr_morales">Dra. Morales - Pediatría</option>
+        <option value="dr_lopez">Dr. López - Traumatología</option>
+      </select>
+      
+<label>Tipo de cita</label>
+<select id="tipo_cita">
+  <option value="presencial">Presencial</option>
+  <option value="virtual">Virtual</option>
+</select>
+
+      <label>Fecha</label>
+      <input id="fecha" type="date" required>
+
+      <label>Hora</label>
+      <input id="hora" type="time" required>
+
+      <label>Observaciones (opcional)</label>
+      <input id="observaciones" placeholder="Breve nota">
+
+      <button type="submit">Registrar cita</button>
+    </form>
+
+    <div id="resultado" aria-live="polite"></div>
+    <div id="errores" aria-live="polite"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
